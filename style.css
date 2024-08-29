@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(3,0,52);
+    background: linear-gradient(90deg, rgba(3,0,52,1) 0%, rgba(13,67,104,1) 67%, rgba(21,76,87,1) 100%);
+   /* background-color: rgb(3, 3, 31); */
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background: rgb(86,79,198);
+    background: linear-gradient(90deg, rgba(86,79,198,1) 0%, rgba(53,105,141,1) 58%, rgba(74,159,176,1) 100%);
+   /* background-color: rgb(31, 31, 81); */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0px 24px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(215, 215, 232);
+}
+
+nav ul li a:hover{
+    font-size: 1.1rem;
+    color: rgb(79, 79, 95);
+}
+
+.left{
+    font-size: 1.3rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.firstSection >  div{
+    width: 30%;
+}
+
+.rightSection img{
+    width: 80%;
+    margin: 50px 0px;
+}
+
+.leftSection{
+    font-size: 2rem;
+    margin: 60px 0px;
+}
+
+.leftSection div{
+    line-height: 38px;
+}
+
+.purple{
+    color: rgb(168, 112, 221);
+}
+
+#element{
+    color: rgb(223, 203, 242);
+}
+
+main hr{
+    border: 0px;
+    background-color: rgb(223, 203, 242);
+    height: 1px;
+    margin: 40px 80px;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #7a96a8;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    height: 50vh;
+    color: aliceblue;
+    
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: #e4e1e1;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.project a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.smit{
+    background-image: url(./smit.png);
+    
+}
+
+.salt{
+    background-image: url(snp.png);
+}
+
+.fb{
+    background-image: url(./facebook.png);
+}
+
+.calculator{
+    background-image: url(./calculator.png);
+}
+
+.dice{
+    background-image: url(./dice.png);
+}
+
+.imageSearch{
+    background-image: url(./image\ search.png);
+}
+
+.tip{
+    background-image: url(./tip.png);
+    padding-bottom: 50px;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    color: rgb(239, 233, 233);
+}
+
+.down{
+    position: relative;
+    top: 140px;
+}
+
+.secondSection h2{
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 30px 0px;
+    color: rgb(238, 202, 238);
+}
+
+.secondSection{
+    color: aliceblue;
+    padding-bottom: 680px;
+}
+
+.thirdSection h2{
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 30px 0px;
+    color: rgb(238, 202, 238);
+}
+
+.fourthSection h2{
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 20px 0px;
+    color: rgb(238, 202, 238);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdSection ul li{
+    list-style: none;
+}
+.thirdSection ul li img{
+    width: 120px;
+}
+
+.fourthSection {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.fourthSection form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fourthSection form label {
+    color: rgb(238, 202, 238);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.fourthSection form input, .fourthSection form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fourthSection form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    letter-spacing: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fourthSection form button:hover {
+    background-color: #555;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .down{
+        position: relative;
+        top: 160px;
+    }
+}

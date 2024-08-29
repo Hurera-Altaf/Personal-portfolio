@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="./index.html"> <img src="./myportfolio.png" width="130px" alt=""> </a>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li> <a href="./index.html">Home </a></li>
+                    <li> <a href="#about">About </a></li>
+                    <li> <a href="#project">Projects </a></li>
+                    <li> <a href="#skills">Skills </a></li>
+                    <li> <a href="#contact">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="firstSection" id="about">
+            <div class="leftSection">
+                Hi, My name is <br> <span class="purple"> Hurera Altaf ! </span> 
+                <div> and I am a <br> <span class="purple"> website developer</span>  </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="dev 4.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection" id="project">
+            <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project smit bg">
+                <div class="down">
+                <h3>SMIT website </h3>
+                <p>A website built for Sylani Mass IT training program.</p>
+                <a href="https://hurera-altaf.github.io/SMIT-website/">View Project</a>
+                </div>
+            </div>
+            <div class="project salt bg">
+                <div class="down">
+
+                
+                <h3> Salt'n pepper </h3>
+                <p>A clone website of a Lahori resturant Salt'n pepper.</p>
+                <a href="https://hurera-altaf.github.io/salt-n-pepper/">View Project</a>
+                </div>
+            </div>
+            <div class="project fb bg">
+                <div class="down">
+                <h3> Facebook-login-sigup</h3>
+                <p> Clone of facebook login and sign-up page.</p>
+                <a href="https://hurera-altaf.github.io/Facebook-login-sigup/">View Project</a>
+                </div>
+            </div>
+
+            <div class="project calculator bg">
+                <div class="down">
+                <h3> Simple Calculator </h3>
+                <p> A simple calculator made with the help of CSS grid.</p>
+                <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <div class="project dice bg">
+                <div class="down">
+                <h3> Dice Simulator</h3>
+                <p> A dice simulator game made for fun and rolling the dice.</p>
+                <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <div class="project imageSearch bg">
+                <div class="down">
+                <h3> Image Search App </h3>
+                <p> A dynamic application that will help users to search images.</p>
+                <a href="#">View Project</a>
+                </div>
+            </div>
+
+            <div class="project tip bg">
+                <div class="down">
+                <h3> Tip Calculator </h3>
+                <p> A simple tip calculator that will calculate tip propotional to the amount of bill.</p>
+                <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <hr>
+        
+        <section class="thirdSection" id="skills">
+            <h2> Skills </h2>
+            <ul class="flex-container">
+                <li> <img src="./html.png" alt=""></li>
+                <li> <img src="./css.png" alt=""> </li>
+                <li> <img src="./js.png" alt=""></li>
+                <li> <img src="./react.png" alt=""></li>
+                <li> <img src="./node.png" alt=""></li>
+                <li> <img src="./git.png" alt=""> </li>
+            </ul>
+        </section>
+        <hr>
+
+        <section class="fourthSection" id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:hurera.altaf95@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hurera Altaf. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: [' &amp; a <i>Website</i> designer.'],
+        typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
